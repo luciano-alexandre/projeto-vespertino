@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+#login .container #login-row #login-column #login-box{
+    margin-top: auto;
+    max-width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: azure;
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+}
+#login .container #login-row 
+    #login-column #login-box #login-form{
+        padding: 20px;
+        margin-top: 30px;
+}
+#register .container #register-row #register-column #register-box{
+    margin-top: auto;
+    max-width: 600px;
+    height: 380px;
+    border: 1px solid black;
+    background-color: azure;
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+}
+#register .container #register-row 
+    #register-column #register-box #register-form{
+        padding: 20px;
+        margin-top: 30px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #BA68C8;
+}
+
+.profile-button{
+    box-shadow: none;
+    border: none;
+    background: #BA68C8;
+}
+
+.profile-button:hover{
+    background: #682773;    
+}
+
+.profile-button:focus{
+    background: #682773;
+    box-shadow: none;
+}
+
+.profile-button:active{
+    background: #682773;
+    box-shadow: none;
+}
+
+.labels{
+    font-size: 11px;
+}
